@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quienes-somos {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+}
+
+.destacados {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.form {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px;
+}
+
+footer {
+    background-color: aqua;
+    color: blanchedalmond;
+    padding: 10px;
+}
