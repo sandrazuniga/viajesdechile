@@ -17,20 +17,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-navbar-propio sticky-top" data-bs-theme="dark" >
+    <nav class="navbar navbar-expand-lg bg-navbar-propio fixed-top" data-bs-theme="dark" >
         <div class="container">
           <a class="navbar-brand" href="#">
-            <h3 class="titulo-nav">
-                Viajes Chile
-            </h1>
+            <img class="icono" src="assets/img/viajes.svg" alt="icono">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
               <a class="nav-link active text-white links" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link text-white links" href="#preparacion">Quienes Somos</a>
-              <a class="nav-link text-white links" href="#recetas">Destacados</a>
+              <a class="nav-link text-white links" href="#quienes-somos">Quienes Somos</a>
+              <a class="nav-link text-white links" href="#destacados">Destacados</a>
               <a class="nav-link text-white links" href="#contacto">Contacto</a>
             </div>
           </div>
@@ -61,24 +59,27 @@
           </div>
     </header>
 
-    <section class="quienes-somos">
+    <section class="quienes-somos" id="quienes-somos">
         <h3>Quienes Somos</h3>
-        <div class="container text-center">
+        <hr>
+        <div class="container">
             <div class="row">
-              <div class="col">
-                Column
+              <div class="col-md-4">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
               </div>
-              <div class="col">
-                Column
+              <div class="col-md-4">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
               </div>
-              <div class="col">
-                Column
+              <div class="col-md-4">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
               </div>
             </div>
           </div>
     </section>
 
-    <section class="destacados">
+    <section class="destacados" id="destacados">
+      <h3 class="text-center">Destacados</h3>
+        <hr>
         <div class="container p-5">
             <div class="row">
                 <div class="col-md-3 mt-5">
@@ -89,19 +90,16 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
-    
                 </div>
                 <div class="col-md-3 mt-5">
                     <div class="card">
                         <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the</p>
                         </div>
                     </div>
-    
                 </div>
-    
                 <div class="col-md-3 mt-5">
                     <div class="card">
                         <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="...">
@@ -110,7 +108,6 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
-    
                 </div>
     
                 <div class="col-md-3 mt-5">
@@ -121,12 +118,31 @@
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
-    
                 </div>
-    
             </div>
-    
         </div>
+    </section>
+
+    <section class="contacto" id="contacto">
+      <h3 class="text-center">Contacto</h3>
+        <hr>
+      <div class="container">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <button type="button" class="btn btn-info mt-3">Enviar</button>
+        </div>
+        </div>
+        </div>
+      </form>
     </section>
 
     <footer>

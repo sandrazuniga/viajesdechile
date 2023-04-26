@@ -2,26 +2,36 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.quienes-somos {
-    background-color: black;
-    color: blanchedalmond;
+.icono {
+    width: 30px;
+}
+
+h3 {
     text-align: center;
+}
+
+.quienes-somos {
+    background-color: #000;
+    color: blanchedalmond;
+    text-align: justify;
     padding: 20px;
 }
 
 .destacados {
-    background-color: black;
-    color: blanchedalmond;
+    background-color: #000;
+    color: #ffff;
+    text-align: center;
+    padding: 20px;
 }
 
-.form {
-    background-color: black;
-    color: blanchedalmond;
+.contacto {
+    background-color: #000;
+    color: #ffff;
     padding: 20px;
 }
 
 footer {
     background-color: aqua;
-    color: blanchedalmond;
+    color: #ffff;
     padding: 10px;
 }
