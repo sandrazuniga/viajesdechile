@@ -1,0 +1,306 @@
+
+admin@DESKTOP-FU2AU3O MINGW64 ~
+$ pwg
+bash: pwg: command not found
+
+admin@DESKTOP-FU2AU3O MINGW64 ~
+$ cd Desktop/
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop
+$ cd CURSO\ RUBY/
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY
+$ cd M2/
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2
+$ ls
+'Apoyo Guía de ejercicios - Meet and Coffee'/   JAVASCRIPT/
+ BOOSTRAP/                                     'TERMINAL GIT'/
+'Guía de ejercicios 1.pdf'                      assets/
+ HTML/                                         'mi primera pagina web'/
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2
+$ cd TERMINAL\ GIT/
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT
+$ ls
+ 3/       'Glosario - Terminal de Git y GitHub Pages (1).pdf'
+ DIA/     'Glosario - Terminal de Git y GitHub Pages.pdf'
+'DIA 1'/   PRUEBA/
+'DIA 2'/  'Solucionario ejercicios propuestos.pdf'
+ DIA-3/    alumno/
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT
+$ cd Dia1
+bash: cd: Dia1: No such file or directory
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT
+$ cd DIA 1
+bash: cd: too many arguments
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT
+$ cd DIA/ 1
+bash: cd: too many arguments
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT
+$ cd..
+bash: cd..: command not found
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT
+$ cd ..
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2
+$ cd TERMINAL\ GIT/
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT
+$ ls
+ 3/       'Glosario - Terminal de Git y GitHub Pages (1).pdf'
+ DIA/     'Glosario - Terminal de Git y GitHub Pages.pdf'
+'DIA 1'/   PRUEBA/
+'DIA 2'/  'Solucionario ejercicios propuestos.pdf'
+ DIA-3/    alumno/
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT
+$ cd PRUEBA/
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA
+$ git init
+Initialized empty Git repository in C:/Users/admin/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA/.git/
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (master)
+$ git branch -M main
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Index.html
+        Prueba - Viajes Chile.pdf
+        "R\303\272brica Prueba - Fundamentos Desarrollo Web.pdf"
+        assets/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git commit -m "primer commit"
+On branch main
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Index.html
+        Prueba - Viajes Chile.pdf
+        "R\303\272brica Prueba - Fundamentos Desarrollo Web.pdf"
+        assets/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git add .
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Index.html
+        new file:   Prueba - Viajes Chile.pdf
+        new file:   "R\303\272brica Prueba - Fundamentos Desarrollo Web.pdf"
+        new file:   assets/css/style.css
+        new file:   assets/img/card1.jpg
+        new file:   assets/img/card2.jpg
+        new file:   assets/img/card3.jpg
+        new file:   assets/img/card4.jpg
+        new file:   assets/img/carousel1.jpg
+        new file:   assets/img/carousel2.jpg
+        new file:   assets/img/carousel3.jpg
+        new file:   assets/img/viajes.svg
+        new file:   assets/js/script.js
+
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git commit -m "primer commit"
+[main (root-commit) 7d413dc] primer commit
+ 13 files changed, 179 insertions(+)
+ create mode 100644 Index.html
+ create mode 100644 Prueba - Viajes Chile.pdf
+ create mode 100644 "R\303\272brica Prueba - Fundamentos Desarrollo Web.pdf"
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/img/card1.jpg
+ create mode 100644 assets/img/card2.jpg
+ create mode 100644 assets/img/card3.jpg
+ create mode 100644 assets/img/card4.jpg
+ create mode 100644 assets/img/carousel1.jpg
+ create mode 100644 assets/img/carousel2.jpg
+ create mode 100644 assets/img/carousel3.jpg
+ create mode 100644 assets/img/viajes.svg
+ create mode 100644 assets/js/script.js
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git remote add origin git@github.com:sandrazuniga/viajesdechile.git
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git remote -v
+origin  git@github.com:sandrazuniga/viajesdechile.git (fetch)
+origin  git@github.com:sandrazuniga/viajesdechile.git (push)
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git push -u origin main
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (19/19), 17.27 MiB | 1.03 MiB/s, done.
+Total 19 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:sandrazuniga/viajesdechile.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git commit "segundo commit"
+error: pathspec 'segundo commit' did not match any file(s) known to git
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git commit -m "segundo commit"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git add .
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git commit "guardar cambios"
+error: pathspec 'guardar cambios' did not match any file(s) known to git
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git commit "segundo commit"
+error: pathspec 'segundo commit' did not match any file(s) known to git
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git commit -m "guardar cambios"
+[main b86313a] guardar cambios
+ 2 files changed, 57 insertions(+), 31 deletions(-)
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.50 KiB | 382.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:sandrazuniga/viajesdechile.git
+   7d413dc..b86313a  main -> main
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git add .
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git commit -m "guardar cambios"
+[main 04bcc07] guardar cambios
+ 2 files changed, 29 insertions(+), 10 deletions(-)
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 978 bytes | 244.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:sandrazuniga/viajesdechile.git
+   b86313a..04bcc07  main -> main
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git add .
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git commit -m "guardar cambios"
+[main 7487965] guardar cambios
+ 2 files changed, 15 insertions(+), 4 deletions(-)
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 596 bytes | 99.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:sandrazuniga/viajesdechile.git
+   04bcc07..7487965  main -> main
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git add .
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git commit -m "quinto commit"
+[main b344e76] quinto commit
+ 2 files changed, 7 insertions(+), 5 deletions(-)
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 637 bytes | 91.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To github.com:sandrazuniga/viajesdechile.git
+   7487965..b344e76  main -> main
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git add .
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git commit -m "sexto commit"
+[main d923a84] sexto commit
+ 1 file changed, 7 insertions(+), 6 deletions(-)
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 414 bytes | 138.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:sandrazuniga/viajesdechile.git
+   b344e76..d923a84  main -> main
+
+admin@DESKTOP-FU2AU3O MINGW64 ~/Desktop/CURSO RUBY/M2/TERMINAL GIT/PRUEBA (main)
+$
