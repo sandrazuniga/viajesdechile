@@ -38,5 +38,7 @@ footer {
 
 .linea {
     background-color: aqua;
+    color: #ffff;
     text-align: center;
+    padding: 5px;
 }
